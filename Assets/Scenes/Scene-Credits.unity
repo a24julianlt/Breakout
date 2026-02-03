@@ -1414,6 +1414,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8810476651048401592, guid: ef3464826f6f6acee9f41a8bd4399ed3, type: 3}
   m_PrefabInstance: {fileID: 841354077}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &977826904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 977826906}
+  - component: {fileID: 977826905}
+  m_Layer: 0
+  m_Name: ExitGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &977826905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977826904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e42910369900226c0bbbbdda87e5a5ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ExitGame
+--- !u!4 &977826906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977826904}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 45.71948, y: 247.33192, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1081623372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1533,7 +1577,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press SPACE key to start
+  m_text: "Creado por\nJuli\xE1n L\xF3pez Tri\xF1anes\n\nPulsa espacio para continuar"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -1560,7 +1604,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24.55
+  m_fontSize: 18
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3094,50 +3138,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8810476651048401592, guid: eb46033d323528ddd92ab7ff8d47ab99, type: 3}
   m_PrefabInstance: {fileID: 1781410932}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1818516429
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1818516431}
-  - component: {fileID: 1818516430}
-  m_Layer: 0
-  m_Name: ExitGame
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1818516430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818516429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e42910369900226c0bbbbdda87e5a5ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ExitGame
---- !u!4 &1818516431
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818516429}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.71948, y: 247.33192, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1839665973
 GameObject:
   m_ObjectHideFlags: 0
@@ -4217,4 +4217,4 @@ SceneRoots:
   - {fileID: 387391634}
   - {fileID: 1987372514}
   - {fileID: 1992772109}
-  - {fileID: 1818516431}
+  - {fileID: 977826906}

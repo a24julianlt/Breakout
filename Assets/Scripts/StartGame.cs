@@ -10,9 +10,14 @@ public class StartGame : MonoBehaviour
     [SerializeField] GameObject pelota; 
     [SerializeField] float duration; 
 
+    void Start()
+    {
+        Cursor.visible = false;
+    }
+
     void Update()
     {
-        if(Input.anyKeyDown){
+        if(Input.GetKeyDown(KeyCode.Space)){
             StartCoroutine("StartNextLevel");
         }
     }
